@@ -1,0 +1,20 @@
+{#
+| Variable  | Type   | Description |
+|-----------|--------|-------------|
+| image     | string | Story image |
+| title     | string | Title       |
+| text      | string | Paragraph   |
+| signature | string | Signature   |
+#}
+<section component-id="{{ componentId }}" class="s-block container" data-testid="aurum-story">
+  <div class="aurum-story">
+    <div class="aurum-story__media">
+      <img src="{{ image ?: 'images/placeholder.png'|asset }}" alt="{{ title }}" loading="lazy">
+    </div>
+    <div>
+      <h2 class="aurum-story__title">{{ title }}</h2>
+      <p class="aurum-story__text">{{ text }}</p>
+      {% if signature %}<div class="aurum-story__sign">{{ signature }}</div>{% endif %}
+    </div>
+  </div>
+</section>

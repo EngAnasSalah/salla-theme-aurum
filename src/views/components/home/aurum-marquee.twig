@@ -1,0 +1,11 @@
+{#
+| Variable      | Type  | Description       |
+|---------------|-------|-------------------|
+| items[]       | array | Scrolling phrases |
+| items[].text  | string|                   |
+#}
+<section component-id="{{ componentId }}" class="aurum-marquee s-block" data-testid="aurum-marquee" aria-hidden="true">
+  <div class="aurum-marquee__track">
+    {% for i in 1..2 %}{% for item in items %}<span class="aurum-marquee__item">{{ item.text }}</span>{% endfor %}{% endfor %}
+  </div>
+</section>

@@ -1,0 +1,22 @@
+{#
+| Variable  | Type   | Description         |
+|-----------|--------|---------------------|
+| image     | string | Background image    |
+| eyebrow   | string | Small label         |
+| title     | string | Main title          |
+| highlight | string | Gold highlighted word |
+| text      | string | Description         |
+| btn_text  | string | Button label        |
+| btn_url   | string | Button link         |
+#}
+<section component-id="{{ componentId }}" class="aurum-hero s-block" data-testid="aurum-hero">
+  <div class="aurum-hero__bg" style="background-image:url('{{ image ?: 'images/placeholder.png'|asset }}')"></div>
+  <div class="container">
+    <div class="aurum-hero__inner">
+      {% if eyebrow %}<div class="aurum-hero__eyebrow">{{ eyebrow }}</div>{% endif %}
+      <h1 class="aurum-hero__title">{{ title }} {% if highlight %}<span>{{ highlight }}</span>{% endif %}</h1>
+      {% if text %}<p class="aurum-hero__text">{{ text }}</p>{% endif %}
+      {% if btn_text %}<a href="{{ btn_url ?: link('products') }}" class="aurum-hero__cta">{{ btn_text }} <i class="sicon-arrow-left rtl:rotate-0 ltr:rotate-180"></i></a>{% endif %}
+    </div>
+  </div>
+</section>

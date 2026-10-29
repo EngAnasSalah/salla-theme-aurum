@@ -284,7 +284,7 @@
     ],
     "components": [
         {
-            "key": "a1e4f0c2-1b7d-4c55-9e10-aurum0hero01",
+            "key": "2e1bc4a0-bdeb-4ad4-821a-b5423ec735e5",
             "title": {
                 "ar": "واجهة أوروم الفاخرة",
                 "en": "Aurum Hero"
@@ -301,7 +301,13 @@
                     "format": "image",
                     "required": false,
                     "value": null,
-                    "description": "الأبعاد المقترحة 1920×1080"
+                    "description": "الأبعاد المقترحة 1920×1080",
+                    "key": "7309f363-990a-4ca5-a9ef-ad9526937165",
+                    "placeholder": null,
+                    "settings": {
+                        "height": 1080,
+                        "width": 1920
+                    }
                 },
                 {
                     "type": "string",
@@ -315,7 +321,8 @@
                     "description": null,
                     "placeholder": "نص صغير أعلى العنوان",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "1af6b794-1ca0-47bb-9407-5cfb340fe6d5"
                 },
                 {
                     "type": "string",
@@ -329,7 +336,8 @@
                     "description": null,
                     "placeholder": "العنوان",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "8af24e25-7f81-4557-82e1-352647df8925"
                 },
                 {
                     "type": "string",
@@ -343,7 +351,8 @@
                     "description": null,
                     "placeholder": "الكلمة الذهبية",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "d6101fc5-10eb-4ff0-bc23-f8cf31f2ba5d"
                 },
                 {
                     "type": "string",
@@ -357,7 +366,8 @@
                     "description": null,
                     "placeholder": "الوصف",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "8871da64-e6a3-4c0f-9874-a4bc88c3d083"
                 },
                 {
                     "type": "string",
@@ -371,7 +381,8 @@
                     "description": null,
                     "placeholder": "نص الزر",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "35ccf16a-4271-4723-8b8e-7323fb756f9d"
                 },
                 {
                     "type": "string",
@@ -385,12 +396,14 @@
                     "description": null,
                     "placeholder": "رابط الزر",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "f8625000-a87b-42c1-ad1c-b08e84579b28"
                 }
-            ]
+            ],
+            "image": "https://cdn.salla.network/images/themes/raed/main-links-with-bg.jpg?v=1.1"
         },
         {
-            "key": "b2f5a1d3-2c8e-4d66-8f21-aurum0story2",
+            "key": "2b3f7443-e931-47ea-9c78-21c2ee0ff4af",
             "title": {
                 "ar": "قصة العلامة",
                 "en": "Brand Story"
@@ -407,7 +420,13 @@
                     "format": "image",
                     "required": false,
                     "value": null,
-                    "description": "الأبعاد المقترحة 1920×1080"
+                    "description": "الأبعاد المقترحة 1920×1080",
+                    "key": "c31a4ad1-d97a-4d69-88ae-dda75f809e80",
+                    "placeholder": null,
+                    "settings": {
+                        "height": 1080,
+                        "width": 1920
+                    }
                 },
                 {
                     "type": "string",
@@ -421,7 +440,8 @@
                     "description": null,
                     "placeholder": "العنوان",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "4e872d4d-1986-43d7-b76d-d900ca6b29e8"
                 },
                 {
                     "type": "string",
@@ -435,7 +455,8 @@
                     "description": null,
                     "placeholder": "النص",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "b886914c-9c3c-4d70-bcf0-6e80891dda27"
                 },
                 {
                     "type": "string",
@@ -449,12 +470,14 @@
                     "description": null,
                     "placeholder": "التوقيع",
                     "minLength": 0,
-                    "maxLength": 500
+                    "maxLength": 250,
+                    "key": "70465983-ca59-4493-a7a3-cf4bf0ae9258"
                 }
-            ]
+            ],
+            "image": "https://cdn.salla.network/images/themes/raed/main-links-with-bg.jpg?v=1.1"
         },
         {
-            "key": "c3a6b2e4-3d9f-4e77-9a32-aurum0marq03",
+            "key": "492921f0-877f-44f5-82ac-d98506904de6",
             "title": {
                 "ar": "شريط متحرك ذهبي",
                 "en": "Gold Marquee"
@@ -495,11 +518,14 @@
                             "description": null,
                             "placeholder": "العبارة",
                             "minLength": 0,
-                            "maxLength": 500
+                            "maxLength": 250,
+                            "key": "a7cc0602-6013-4780-b803-9b10c268df1c"
                         }
-                    ]
+                    ],
+                    "key": "03fd0e19-a186-4803-852b-e89a8572407a"
                 }
-            ]
+            ],
+            "image": "https://cdn.salla.network/images/themes/raed/main-links-with-bg.jpg?v=1.1"
         },
         {
             "key": "186b3f4f-25cf-4d3c-abca-cef7eed6f0ab",
